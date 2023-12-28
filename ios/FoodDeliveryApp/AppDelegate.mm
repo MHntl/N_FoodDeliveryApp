@@ -7,7 +7,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [GMSServices provideAPIKey:@"AIzaSyDLfZx5AC7stuwSuoihQcqxynWQPB_otO8"]; // add this line using the api key obtained from Google Console
+  [GMSServices provideAPIKey:@"API_KEY+NEEDED"]; // add this line using the api key obtained from Google Console
   self.moduleName = @"FoodDeliveryApp";
   // You can add your custom initial props in the dictionary below.
   // They will be passed down to the ViewController used by React Native.
